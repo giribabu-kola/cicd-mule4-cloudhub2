@@ -35,8 +35,9 @@
 	                    <provider>MC</provider>
 	                    <environment>Sandbox</environment>
 	                    <target>Cloudhub-US-East-2</target>
-	                    <username>${anypoint.user}</username>
-     					<password>${anypoint.pass}</password>	                   
+	                   <!--  <username>${anypoint.user}</username>
+     					<password>${anypoint.pass}</password> -->	
+     					<server>Repository</server>                   
 	                    <applicationName>${project.artifactId}</applicationName>
 	                    <releaseChannel>EDGE</releaseChannel>
 	                    <replicas>1</replicas>
