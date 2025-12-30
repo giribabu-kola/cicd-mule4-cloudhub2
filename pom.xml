@@ -38,7 +38,7 @@
 	                   <!--  <username>${anypoint.user}</username>
      					<password>${anypoint.pass}</password> -->	
      					<server>Repository</server>                   
-	                    <applicationName>${project.artifactId}</applicationName>
+	                    <applicationName>cicd-mule4-cloudhub2-dev</applicationName>
 	                    <releaseChannel>EDGE</releaseChannel>
 	                    <replicas>1</replicas>
 	                    <vCores>0.1</vCores>
